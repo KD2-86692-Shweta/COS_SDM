@@ -8,7 +8,7 @@ echo "$l"
 
 contents_reverse=$(cat $file1 | tr "a-z" "A-Z" )
 #echo "$content"
-echo "Reversed case in file1 is $contents_reverse"
+echo "Reversed case in file1 is $contents_reverse >> $file2"
 
 cat "$file2"
 
